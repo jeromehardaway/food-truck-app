@@ -1,0 +1,25 @@
+:root {
+    --color-light: #fff;
+    --color-dark: #000;
+    --first-blue: #091f40;
+    --second-blue: #1a51a3;
+    --third-blue: #142e39;
+    --color-red: #c5203e;
+}
+
+
+.container {
+    padding: 1em;
+    border: var(--border-thin) solid;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+  }
+
+  .container * {
+    color: inherit;
+  }
+
+  .container.invert {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+  }
