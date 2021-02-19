@@ -7,6 +7,15 @@
     --color-red: #c5203e;
 }
 
+body {
+    color: #222;
+    background-color: var(--color-light);
+  }
+  body.dark-theme {
+    color: var(--color-light);
+    background-color: var(--first-blue);
+  }
+
 
 .container {
     padding: 1em;
